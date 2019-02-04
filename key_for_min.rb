@@ -3,5 +3,5 @@
 
 def key_for_min_value(name_hash)
   name_hash.each {|k,v| puts k if v == name_hash.values.min}
-  key_for_min_value(name_hash)
-end
+ end
+ 
