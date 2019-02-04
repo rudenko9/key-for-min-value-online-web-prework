@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
    puts k 
    if  v == name_hash.values.min
   else 
-    k
+    v
   end
 end
 
